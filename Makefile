@@ -1,4 +1,4 @@
-GIT_LFS		:= git-lfs
+GIT_LFS		:= ../git-lfs/bin/git-lfs
 
 .PHONY: test
 test: sub1/test1.txt sub1/sub2/test2.txt
